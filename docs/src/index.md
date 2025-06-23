@@ -18,11 +18,30 @@ hero:
       link: /document
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📖
+    title: 社团答题
+    details: 状态机驱动的自动社团答题，通过OCR识别和题库对比精准回答
+  - icon: 🌳
+    title: 禁林探索
+    details: 自定义次数的自动禁林探索，同时实现结算时自动点赞队友
+  - icon: 🍰
+    title: 巫师烹饪
+    details: 支持多种菜谱的自动烹饪，用户可自定义或添加菜谱配置
+  - icon: 🍬
+    title: 甜蜜冒险
+    details: 限时活动甜蜜冒险的自动化实现
+
+  - icon: 🧾
+    title: 日志系统
+    details: 游戏窗口覆盖日志显示，同时支持本地日志记录
+  - icon: 🎯
+    title: 遮罩窗口
+    details: 可自定义显示的实时遮罩窗口，显示匹配结果
+  - icon: ⌨️
+    title: 热键绑定
+    details: 用户配置的热键绑定，通过快捷键启用功能
+  - icon: 🔔
+    title: 通知功能
+    details: 支持原生Windows通知功能，实时通知运行结果
 ---
 
