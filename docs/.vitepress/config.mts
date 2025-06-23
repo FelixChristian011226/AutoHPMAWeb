@@ -4,10 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "AutoHPMA",
   description: "Harry Potter: Magic Awakened Automation Tool",
+  srcDir: './src',
+  srcExclude: ['**/README.md', '**/TODO.md'],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '首页', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
