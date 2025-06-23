@@ -61,6 +61,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/FelixChristian011226/AutoHPMA' }
-    ]
+    ],
+
+    footer: {
+      message: 'Released under the <a href="https://github.com/FelixChristian011226/AutoHPMA/blob/master/LICENSE">GPL-3.0 License</a>.',
+      copyright: 'Copyright © 2025-present <a href="https://github.com/FelixChristian011226">Felix Christian</a>'
+    }
   }
 })
