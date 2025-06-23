@@ -4,15 +4,18 @@ layout: home
 
 hero:
   name: "AutoHPMA"
-  text: "Harry Potter: Magic Awakened Automation Tool"
-  tagline: My great project tagline
+  text: "哈利波特魔法觉醒\n自动化工具"
+  image:
+    src: /logo.png
+    alt: AutoHPMA
+  tagline: 一款个人开发的WPF应用
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 下载
+      link: /download
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 文档
+      link: /document
 
 features:
   - title: Feature A
