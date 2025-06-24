@@ -9,6 +9,7 @@
 
 - [安装指南](install.md)
 - [使用说明](usage.md)
-- [常见问题](faq.md)
 - [功能介绍](features/index.md)
+- [常见问题](faq.md)
+
 

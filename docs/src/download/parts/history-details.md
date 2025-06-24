@@ -1,3 +1,19 @@
+::: details v3.1.3
+---
+
+### ✨ 优化：
+- **软件许可**：软件许可更改为GPL-3.0。
+- **界面焕新**：替换了软件Logo和背景图，重绘了安装程序的icon。
+- **链接替换**：主界面的跳转链接以及设置页面的教程文档链接替换为新构建的应用网站链接。
+
+---
+
+### ✨ Optimization:
+- ** Software License ** : The software license has been changed to GPL-3.0.
+- ** Interface Refresh ** : The software Logo and background image have been replaced.
+- ** Link Replacement ** : The tutorial link is replaced with the link of the newly constructed software introduction page.
+:::
+
 ::: details v3.1.2
 ---
 
@@ -104,29 +120,5 @@
 
 - ** Task Independence ** : Fix the issue where multiple tasks might be carried out simultaneously. Now, when clicking the start button of another task during its execution, a MessageBox prompt will appear.
 - ** Auto Forbidden Forest** : Fix the issue where Auto Forbidden Forest has not been terminated when reaching the frequency. Fix the issue where the button does not return to its original position when the mission is terminated.
-:::
-
-::: details v3.0.1
----
-
-### 🎉 特性：
-
-- **通知功能**：添加原生Windows通知的支持。现在会在社团答题结算阶段弹出Windows通知。
-
-### ✨ 优化：
-- **使用条款**：在第一次启动应用时会弹出使用条款。
-- **配置保存**：优化了偏好设置的保存逻辑。会在AppData保存配置信息。
-- **设置页面**：重做了设置页面。添加了应用信息显示。
-
----
-
-### 🎉 Features: 
-
-- **Notification Function**: Add support for native Windows notifications. Now, Windows notifications will pop up during the settlement stage of community quizzes. 
-
-### ✨ Optimizations:
-- **Terms of Use**: The terms of use will pop up when the application is launched for the first time.
-- **Configuration Saving**: The logic for saving preferences has been optimized. Configuration information will be saved in AppData.
-- **Settings Page**: The settings page has been redone. Application information display has been added.
 :::
 
