@@ -13,7 +13,7 @@
 ## 页面介绍
 
 ### 启动页面
-![homepage](/pages/homepage.png)
+<img src="/pages/homepage.png" style="width:80%;"/>
 
 启动页面包含主程序的启动，日志窗口及遮罩窗口的设置。
 
@@ -30,7 +30,7 @@
 此外，还可展开日志窗口的`CardExpander`以设置是否显示Debug信息。 
 
 ### 任务页面
-![taskpage](/pages/taskpage.png)
+<img src="/pages/taskpage.png" style="width:80%;"/>
 
 任务页面是各项自动化任务的入口。
 
@@ -43,19 +43,19 @@
 如需了解更多细节，请访问[功能](features/index.md)页。
 
 ### 截屏页面
-![screenshotpage](/pages/screenshotpage.png)
+<img src="/pages/screenshotpage.png" style="width:80%;"/>
 
 截屏页面是一个实时显示当前游戏截屏的`Canvas`，实时截屏的启用和设置请见[启动页面](#启动页面)。
 
 ### 日志页面
-![logpage](/pages/logpage.png)
+<img src="/pages/logpage.png" style="width:80%;"/>
 
 日志页面是独立于日志窗口的单独的日志系统。
 
 该页面会更加详细的展示所有的日志信息。并支持用户筛选过滤目标类别的日志。
 
 ### 测试页面
-![testpage](/pages/testpage.png)
+<img src="/pages/testpage.png" style="width:80%;"/>
 
 测试页面是对工具一些基础功能的测试，普通用户无需在意。
 
@@ -96,19 +96,19 @@
 :::
 
 ### 热键页面
-![hotkeypage](/pages/hotkeypage.png)
+<img src="/pages/hotkeypage.png" style="width:80%;"/>
 
 热键页面可对任务进行热键绑定，从而实现全局监听的键盘操作。支持组合键。
 
-其中基础功能里的截图会保存在`/Captures/`目录，以`screenshot_YYYYMMDD_xxxxxx`的格式命名。
+其中基础功能里的截图会保存在`/Captures/`目录，以`screenshot_YYYYMMDD_xxxxxx.png`的格式命名。
 
 ### 通知页面
-![notificationpage](/pages/notificationpage.png)
+<img src="/pages/notificationpage.png" style="width:80%;"/>
 
 通知页面可以启用不同的通知功能，目前仅支持原生Windows通知。展开可发送测试通知。
 
 ### 设置页面
-![settingpage](/pages/settingpage.png)
+<img src="/pages/settingpage.png" style="width:80%;"/>
 
 设置页面包含软件基础设置，日志设置以及软件信息等。
 
@@ -118,7 +118,7 @@
 
 ## 注意事项 <Badge type="danger" text="caution" />
 
-- AutoHPMA 目前仅与 MuMu 模拟器兼容，支持多种分辨率的窗口化模式，但是1600\*900分辨率目前会出现截图异常，请不要使用，推荐分辨率1280\*720。
+- AutoHPMA 目前仅与 MuMu 模拟器兼容，支持多种分辨率的窗口化模式，但是1600*900分辨率目前会出现截图异常，请不要使用，推荐分辨率1280*720。
 - 为了识别的准确性，请将游戏画质设置为默认的"标准"画质，尽量不要更改任何影响画面的参数。
 - 在脚本执行期间，请勿最小化游戏窗口或单击屏幕右下角的显示桌面按钮，否则可能会导致游戏窗口异常置顶。游戏窗口可以被其他窗口遮挡，不影响工具正常运行。
 - 若运行过程出现异常的窗口弹出，可尝试通过多次切屏解决。如若解决不了，则需要重启电脑方能解决。
