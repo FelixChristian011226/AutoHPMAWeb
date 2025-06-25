@@ -18,11 +18,14 @@
 - **组队身份**：队长或队员。
 
 ## 使用截图 <Badge type="tip" text="Screenshots" />
+**战斗中**：
+<img src="/features/forbiddenforest/fighting.png" style="width:80%;"/>
 
-
+**结算中**：
+<img src="/features/forbiddenforest/over.png" style="width:80%;"/>
 
 ## 注意事项 <Badge type="warning" text="Note" />
 
-- 暂无，这个功能挺鸡肋的，其实最初就是为了刷巫师小队30次做的。也没怎么做过调试。
+- 如果目标次数小于当前提灯数，任务会一直运行。这非程序问题，而是游戏本身会记录自动状态，有提灯会默认开启下一场。
 
 ## 常见问题 <Badge type="danger" text="questions" />

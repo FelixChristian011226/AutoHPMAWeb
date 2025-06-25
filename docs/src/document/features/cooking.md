@@ -75,8 +75,8 @@
 理论上用户可通过自定义配置文件，实现更多样的菜谱烹饪，但是由于素材图并未完全收集，此功能可能后续才能开放。
 
 ## 使用截图 <Badge type="tip" text="Screenshots" />
-
-
+**烹饪中**：
+<img src="/features/cooking/cooking.png" style="width:80%;"/>
 
 ## 注意事项 <Badge type="warning" text="Note" />
 
