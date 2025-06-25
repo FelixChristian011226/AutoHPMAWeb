@@ -1,6 +1,6 @@
 # 自动社团答题
 
-## 功能介绍
+## 功能介绍 <Badge type="tip" text="Introduction" />
 
 **自动社团答题**实现了全流程的重复的自动化社团答题。只需简单点击启动，工具会接管剩下的流程。
 
@@ -13,13 +13,13 @@
   - 结算中：出现结算画面时，工具会通过OCR识别此次答题的分数，并发送Windows通知。
 - **终止条件**：手动终止。否则工具会一直循环运行。
 
-## 参数设置
+## 参数设置 <Badge type="tip" text="Settings" />
 
 - **答题延时**：在匹配答案后添加的延时，经过延时再点击答案。
 - **加入学院互助**：勾选后，若聊天框的'社团'频道中未查询到社团答题，会打开'学院互助'频道查询社团答题活动。
 - **打开题库**：点击打开题库所在文件夹，可手动对题库进行更新修改。
 
-## 使用截图
+## 使用截图 <Badge type="tip" text="Screenshots" />
 **答题中**：
 <img src="/features/clubquiz/quizing.png" style="width:80%;"/>
 
@@ -27,13 +27,18 @@
 <img src="/features/clubquiz/over.png" style="width:80%;"/>
 
 **Windows通知**：
-<img src="/features/clubquiz/notification.png" style="width:80%;"/>
+<img src="/features/clubquiz/notification.png" style="transform: scale(0.75); transform-origin: top left;"/>
 
+## 注意事项 <Badge type="warning" text="Note" />
 
-## 常见问题
+- 由于题库可能出现过时或错误，且识别和匹配会偶现错误，不能保证每次答题的准确性。
+
+## 常见问题 <Badge type="danger" text="questions" />
 
 1. 刚进入答题时第一次没有点击答案？
+
 由于初始化定位答题框位置需要时间，而答题的判断是出现'20s'倒计时，第一次可能还没初始化完成就错过'20s'倒计时，因此会漏掉一题，在后续答题中就不会再出现该问题了。
 
 2. 答题延时设置为0，但依然有延时？
+
 这主要是由于PaddleOCR识别所限制的，文字识别需要时间。此外，工具通过二值化再探测矩形来确定问题的位置，这一步也需要耗时，所以延时属正常现象。
