@@ -9,6 +9,12 @@ export default defineConfig({
   lastUpdated: true,
   lang: 'zh-CN',
 
+  markdown: {
+    image: {
+      lazyLoading: true
+    }
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
