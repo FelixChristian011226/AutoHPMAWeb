@@ -8,6 +8,7 @@ export default defineConfig({
   srcExclude: ['**/README.md', '**/TODO.md'],
   lastUpdated: true,
   lang: 'zh-CN',
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
 
   markdown: {
     image: {
