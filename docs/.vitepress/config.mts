@@ -63,6 +63,12 @@ export default defineConfig({
             { text: '配置文件', link: '/advanced/config' },
             { text: '日志系统', link: '/advanced/logging' },
             { text: '测试功能', link: '/advanced/testing' },
+            { text: '用户扩展',
+              collapsed: true,
+              items: [
+                { text: '菜谱定制', link: '/advanced/user-extend/cooking-custom' },
+              ]
+            },
           ]
         }
       ]
