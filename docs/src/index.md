@@ -47,6 +47,9 @@ features:
   - icon: 👻
     title: 后台操作
     details: 所有鼠标操作通过对窗口发送模拟信号实现，可完全后台运行
+  - icon: 🧩
+    title: 用户扩展
+    details: 支持部分功能的用户自定义拓展功能
 
   
 ---
