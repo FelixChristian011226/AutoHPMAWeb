@@ -1,3 +1,13 @@
+---
+prev:
+  text: '测试功能'
+  link: '/advanced/testing'
+
+next:
+  text: '菜谱定制'
+  link: '/advanced/user-extend/cooking-custom'
+---
+
 # 用户扩展
 
 > [!IMPORTANT]
