@@ -1,3 +1,29 @@
+::: details v3.2.0
+---
+
+### 🎉 特性：
+- **自动烹饪**：自动烹饪增加用户自定义菜谱的支持。详细说明请见[官网](https://www.autohpma.top/)。
+
+### ✨ 优化：
+- **热键截图**：热键触发的截图功能添加了日志窗口的日志显示，显示保存路径信息。
+- **日志窗口**：日志窗口的日志信息增加了字幕滚动效果，可在启动页面启用或停止。
+
+### 🔧 修复：
+- **自动烹饪**：由于游戏图像更新，自动烹饪原有素材图已失效，进行了替换。
+
+---
+
+### 🎉 Feature:
+- ** Auto Cooking ** : Auto Cooking adds support for user-defined recipes. For detailed instructions, please visit [official website](autohpma.top).
+
+### ✨ Optimization:
+- ** Hotkey Screenshot ** : The hotkey-triggered screenshot function has added log display in the log window, showing the save path information.
+- ** Log Window ** : The log information in the log window has added a subtitle scrolling effect, which can be enabled or stopped on the startup page.
+
+### 🔧 Fix:
+- ** Auto Cooking ** : Due to the update of game graphics, the original material images for Auto Cooking have become invalid and have been replaced.
+:::
+
 ::: details v3.1.3
 ---
 
@@ -85,40 +111,5 @@
 
 ### 🔧 Fix:
 - **Task Termination**: Fixed the issue where the button did not reset after the task reached the set number of executions and terminated automatically.
-:::
-
-::: details v3.0.2
----
-
-### 🎉 特性：
-
-- **日志页面**：添加单独的日志页面，可以筛选日志类别。
-- **日志文件**：添加日志文件自动保存功能，并可通过设置页面设置日志上限，实现自动清理。
-
-
-### ✨ 优化：
-- **通知开关**：添加通知页面，用于开关通知（目前仅支持Windows通知）。
-- **日志底层**：优化日志底层实现，通过ILogger统一封装。
-
-
-### 🔧 修复：
-- **任务独立**：修复了多个任务可能同时进行的问题。现在在任务执行过程中再点击其他任务的启动按钮会出现MessageBox提示。
-- **自动禁林**：修复自动禁林达到次数未终止的问题。修复禁林任务终止时按钮未归位的问题。
-
----
-
-### 🎉 Features:
-
-- ** Log Page ** : Add a separate log page to filter log categories.
-- ** Log File ** : Add the function of automatically saving log files, and the upper limit of logs can be set through the Settings page to achieve automatic cleaning.
-
-### ✨ Optimization:
-- ** Notification Switch ** : Add a notification page for switching notifications (currently only Windows notifications are supported).
-- ** Log Bottom Layer ** : Optimize the implementation of the log bottom layer and uniformly encapsulate it through ILogger.
-
-### 🔧 Fix:
-
-- ** Task Independence ** : Fix the issue where multiple tasks might be carried out simultaneously. Now, when clicking the start button of another task during its execution, a MessageBox prompt will appear.
-- ** Auto Forbidden Forest** : Fix the issue where Auto Forbidden Forest has not been terminated when reaching the frequency. Fix the issue where the button does not return to its original position when the mission is terminated.
 :::
 
