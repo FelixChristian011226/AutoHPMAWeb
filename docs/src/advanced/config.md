@@ -6,7 +6,7 @@
 
 AutoHPMA会自动记录用户的使用偏好，并保存在计算机本地，以确保下次应用启动时，所有控件选项均为上次关闭时的状态。
 
-用户配置文件的路径为`C:\Users\{user_name}\AppData\Roaming\AutoHPMA\settings.json"`，其中`{user_name}`是您的用户名。
+用户配置文件的路径为`C:\Users\{user_name}\AppData\Roaming\AutoHPMA\settings.json`，其中`{user_name}`是您的用户名。
 
 在`设置页面`的`恢复设置`功能，本质上也是删除该配置文件。由于WPF应用在启动时才加载配置，所以恢复后需要重启应用才能生效。
 
