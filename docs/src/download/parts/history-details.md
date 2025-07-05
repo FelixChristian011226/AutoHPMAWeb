@@ -14,7 +14,7 @@
 ---
 
 ### 🎉 Feature:
-- ** Auto Cooking ** : Auto Cooking adds support for user-defined recipes. For detailed instructions, please visit [official website](autohpma.top).
+- ** Auto Cooking ** : Auto Cooking adds support for user-defined recipes. For detailed instructions, please visit [official website](https://www.autohpma.top/).
 
 ### ✨ Optimization:
 - ** Hotkey Screenshot ** : The hotkey-triggered screenshot function has added log display in the log window, showing the save path information.
